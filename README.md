@@ -2,7 +2,9 @@
 
 A separate React + Vite + Tailwind CSS project for a professional, minimalist alternative design for the existing Grape website.
 
-This repository currently contains project structure only. The app intentionally renders a blank page. Website design, homepage development and content entry must wait for approval. No deployment is configured.
+This repository contains the first homepage prototype for co-founder review, following the supplied Warm Editorial Minimalism mockup. It is not approved for production launch. No deployment is configured.
+
+The homepage includes the supplied branding and copy, provisional 2027 session themes, the three networking steps, Beth Croft and Manoj Vadavat, and responsive navigation. Original portraits are preserved alongside separate professional edits. Tally integration and a verified LinkedIn destination are pending. Contact currently opens an accessible Coming Soon dialog; session registration statuses are non-clickable.
 
 ## Local development
 
@@ -27,18 +29,19 @@ docs/                Design brief, approved content and development notes
 src/
   app/               App entry and future application configuration
   components/
-    layout/          Future shared layout components
-    ui/              Future reusable interface components
-  content/           Future approved structured website content
+    home/            Homepage sections
+    layout/          Header and footer
+    ui/              Shared icons, session CTA and contact dialog
+  content/           Host data and explicitly provisional session themes
   hooks/             Future reusable React hooks
   lib/               Future shared utilities and integrations
-  pages/             Future page components (no homepage implemented)
-  styles/            Tailwind entry and future shared styles
+  pages/             Homepage composition
+  styles/            Tailwind entry, design tokens and responsive styles
   types/             Future shared TypeScript types
 ```
 
 Empty directories contain `.gitkeep` files so Git retains them. Use descriptive filenames for supplied assets; no particular filenames are required yet. Files in `public/` will be served as public assets. Files in `references/` and `docs/` are project resources and are not included in the website build.
 
-Place the design brief, approved copy and development notes in `docs/` as they become available. Do not add unapproved website copy or placeholder imagery.
+The supplied brief, approved implementation plan and development notes are in `docs/`. Manoj Vadavat is the user-confirmed name, superseding Manoj Kumar in the original brief. Do not add unapproved website copy or placeholder imagery.
 
-The existing Grape V1 repository is outside this project's scope. Preserve this repository's Git history and remote configuration. Do not configure or deploy to Netlify during this preparation phase.
+The existing Grape V1 repository is outside this project's scope. Preserve this repository's Git history and remote configuration. Do not configure or deploy to Netlify without a new instruction. This prototype includes `noindex, nofollow` metadata; revisit it only when a production launch is approved.
