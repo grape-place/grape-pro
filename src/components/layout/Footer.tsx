@@ -4,12 +4,14 @@ import LinkedInLink from '../ui/LinkedInLink'
 export default function Footer() {
   return <footer className="site-footer container">
     <div className="footer-main">
-      <div>
+      <div className="footer-identity">
         <a className="brand footer-brand" href="#top" aria-label="Grape home">
           <img src={logo} alt="Grape" width="2172" height="724" loading="lazy" />
         </a>
-        <p className="footer-tagline">Meet . Connect . Grow</p>
-        <LinkedInLink href="https://www.linkedin.com/company/grape-connect" name="Grape" />
+        <div className="footer-brand-details">
+          <p className="footer-tagline">Meet . Connect . Grow</p>
+          <LinkedInLink href="https://www.linkedin.com/company/grape-connect" name="Grape" />
+        </div>
       </div>
       <a className="back-to-top" href="#top">
         Back to top
@@ -18,6 +20,6 @@ export default function Footer() {
         </svg>
       </a>
     </div>
-    <div className="footer-bottom">Grape</div>
+    <p className="footer-bottom">Made with ❤️ in Australia 🦘🐨🇦🇺</p>
   </footer>
 }
