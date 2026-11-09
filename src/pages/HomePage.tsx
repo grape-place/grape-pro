@@ -20,7 +20,7 @@ export default function HomePage() {
       <Hosts />
       <ClosingCallToAction />
     </main>
-    <Footer onContact={() => setContactOpen(true)} />
+    <Footer />
     <ContactDialog open={contactOpen} onClose={() => setContactOpen(false)} />
   </div>
 }

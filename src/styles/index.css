@@ -43,7 +43,7 @@ ul, ol { list-style: none; margin: 0; padding: 0; }
 .main-navigation { display: flex; align-items: center; gap: 34px; font-size: 13px; font-weight: 500; }
 .main-navigation a, .main-navigation button { padding-block: 14px; }
 .main-navigation button span { margin-left: 5px; color: var(--ink); }
-.main-navigation a:hover, .main-navigation button:hover, .footer-navigation a:hover, .footer-navigation button:hover { color: #7c3b94; }
+.main-navigation a:hover, .main-navigation button:hover, .back-to-top:hover { color: #7c3b94; }
 .menu-toggle { display: none; }
 .hero { position: relative; isolation: isolate; border-bottom: 1px solid var(--line); }
 .hero-content { padding-top: 67px; padding-bottom: 78px; }
@@ -106,8 +106,7 @@ ul, ol { list-style: none; margin: 0; padding: 0; }
 .footer-main { display: flex; align-items: center; justify-content: space-between; gap: 30px; padding-bottom: 32px; }
 .footer-brand { width: 102px; }
 .footer-tagline { font-size: 11px; color: var(--muted); margin-top: 13px; letter-spacing: 0.4px; }
-.footer-navigation { display: flex; align-items: center; gap: 26px; font-size: 12px; color: #645a67; }
-.footer-navigation a, .footer-navigation button { padding-block: 12px; }
+.back-to-top { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font-size: 12px; color: var(--ink); white-space: nowrap; }
 .footer-bottom { display: flex; align-items: center; justify-content: space-between; gap: 16px; border-top: 1px solid var(--line); padding-top: 20px; color: #786b7d; font-size: 10px; }
 .social-pending { display: inline-flex; align-items: center; gap: 8px; }
 .linkedin-mark { font-family: Arial, sans-serif; font-size: 14px; font-weight: 700; color: var(--ink); }
@@ -145,7 +144,6 @@ ul, ol { list-style: none; margin: 0; padding: 0; }
   .host-details h3 { font-size: 25px; }
   .closing-panel { padding: 33px 30px; gap: 25px; }
   .closing-panel .button { gap: 15px; padding-inline: 18px; }
-  .footer-navigation { gap: 20px; }
 }
 
 @media (max-width: 767px) {
@@ -203,9 +201,6 @@ ul, ol { list-style: none; margin: 0; padding: 0; }
   .footer-main { align-items: flex-start; gap: 25px; padding-bottom: 25px; }
   .footer-brand { width: 95px; }
   .footer-tagline { font-size: 10px; margin-top: 10px; }
-  .footer-navigation { flex-direction: column; align-items: flex-start; gap: 0; font-size: 11px; }
-  .footer-navigation a, .footer-navigation button { padding: 12px 0; min-height: 44px; }
-  .footer-navigation a:first-child { padding-top: 0; }
   .footer-bottom { padding-top: 18px; }
 }
 
