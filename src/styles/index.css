@@ -113,13 +113,6 @@ ul, ol { list-style: none; margin: 0; padding: 0; }
 .footer-bottom { border-top: 1px solid var(--line); padding-top: 20px; text-align: center; font-family: var(--font-sans); font-size: 12px; font-weight: 600; color: #645a67; }
 .skip-link { position: fixed; top: 10px; left: 10px; z-index: 20; transform: translateY(-180%); background: var(--ink); color: white; padding: 15px 20px; border-radius: 5px; }
 .skip-link:focus { transform: translateY(0); }
-.contact-dialog { border: 1px solid var(--line); border-radius: 14px; background: #f7f5f0; color: #252326; width: min(460px, calc(100vw - 40px)); padding: 0; margin: auto; box-shadow: 0 20px 100px #25232622; }
-.contact-dialog::backdrop { background: #25232665; backdrop-filter: blur(4px); }
-.dialog-content { padding: 48px 36px 36px; position: relative; }
-.dialog-content h2 { font-size: 32px; margin-top: 12px; }
-.dialog-content > p:not(.eyebrow) { font-size: 15px; line-height: 1.7; margin-top: 18px; color: var(--muted); }
-.dialog-content .button { margin-top: 28px; }
-.dialog-close { position: absolute; top: 10px; right: 10px; width: 44px; height: 44px; display: grid; place-items: center; color: var(--ink); }
 
 @media (min-width: 1440px) {
   .hero-wash::before { right: calc((100vw - 1440px) / 2 - 380px); }
