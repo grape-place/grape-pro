@@ -1,5 +1,8 @@
 export const logo = '/images/logos/small-g-grape-logo.png'
 
+// Show the event rows and session buttons when booking is ready.
+export const showSessionRows = false
+
 export const navigation = [
   { label: 'How it works', href: '#how-it-works' },
   { label: 'Upcoming sessions', href: '#sessions' },

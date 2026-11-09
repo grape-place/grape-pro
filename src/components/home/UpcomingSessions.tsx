@@ -1,7 +1,18 @@
-import { sessions } from '../../content/site'
+import { sessions, showSessionRows } from '../../content/site'
 import Icon from '../ui/Icon'
 
 export default function UpcomingSessions() {
+  if (!showSessionRows) {
+    return (
+      <section id="sessions" className="section sessions-section container" aria-labelledby="sessions-heading">
+        <h2 id="sessions-heading">Upcoming Sessions</h2>
+        <p className="section-description">
+          We’re planning our next online networking sessions. Dates and booking details will be announced here.
+        </p>
+      </section>
+    )
+  }
+
   return <section id="sessions" className="section sessions-section container" aria-labelledby="sessions-heading">
     <div className="section-heading flex flex-wrap items-end justify-between gap-4">
       <h2 id="sessions-heading">Upcoming sessions in 2027</h2>
