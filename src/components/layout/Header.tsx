@@ -18,7 +18,7 @@ export default function Header({ onContact }: { onContact: () => void }) {
   }, [menuOpen])
 
   return <header className="site-header container">
-    <a className="brand" href="#top" aria-label="Grape home"><img src={logo} alt="Grape" width="2202" height="714" /></a>
+    <a className="brand" href="#top" aria-label="Grape home"><img src={logo} alt="Grape" width="2172" height="724" /></a>
     <button ref={menuToggle} className="menu-toggle" type="button" aria-expanded={menuOpen} aria-controls="main-navigation" aria-label={menuOpen ? 'Close navigation' : 'Open navigation'} onClick={() => setMenuOpen(!menuOpen)}><Icon name={menuOpen ? 'close' : 'menu'} /></button>
     <nav id="main-navigation" className={`main-navigation ${menuOpen ? 'is-open' : ''}`} aria-label="Main navigation">
       {navigation.map(link => <a key={link.href} href={link.href} onClick={() => setMenuOpen(false)}>{link.label}</a>)}

@@ -1,4 +1,4 @@
-export const logo = '/images/logos/grape-logo.png'
+export const logo = '/images/logos/small-g-grape-logo.png'
 
 export const navigation = [
   { label: 'How it works', href: '#how-it-works' },

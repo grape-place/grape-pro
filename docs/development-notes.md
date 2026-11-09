@@ -12,7 +12,7 @@ No Grape V1 repository access, Git remote changes, deployment configuration or d
 
 ## Assets
 
-Original uploaded assets remain untouched. The served logo is a smaller derivative at `public/images/logos/grape-logo.png`, preserving its transparency and proportions. The homepage uses these optimised portrait derivatives:
+Original uploaded assets remain untouched. The header and footer use `public/images/logos/small-g-grape-logo.png`. The homepage uses these optimised portrait derivatives:
 
 - `public/images/hosts/beth-professional.jpg`
 - `public/images/hosts/manoj-professional.jpg`

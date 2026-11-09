@@ -3,7 +3,7 @@ import { logo, navigation } from '../../content/site'
 export default function Footer({ onContact }: { onContact: () => void }) {
   return <footer className="site-footer container">
     <div className="footer-main">
-      <div><a className="brand footer-brand" href="#top" aria-label="Grape home"><img src={logo} alt="Grape" width="2202" height="714" loading="lazy" /></a><p className="footer-tagline">Meet . Connect . Grow</p></div>
+      <div><a className="brand footer-brand" href="#top" aria-label="Grape home"><img src={logo} alt="Grape" width="2172" height="724" loading="lazy" /></a><p className="footer-tagline">Meet . Connect . Grow</p></div>
       <nav className="footer-navigation" aria-label="Footer navigation">
         {navigation.map(link => <a key={link.href} href={link.href}>{link.label}</a>)}
         <button type="button" onClick={onContact}>Contact</button>
