@@ -21,10 +21,12 @@ export const hosts = [
     name: 'Beth Croft',
     role: 'Founder of Endorsr',
     image: '/images/hosts/beth-professional.jpg',
+    linkedin: 'https://www.linkedin.com/in/beth-croft-b57baa113/',
   },
   {
     name: 'Manoj Vadavat',
     role: 'Independent Consultant at Star Variance',
     image: '/images/hosts/manoj-professional.jpg',
+    linkedin: 'https://www.linkedin.com/in/manojvadavat/',
   },
 ]
